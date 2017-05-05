@@ -12,7 +12,10 @@
 <script>
 $(document).ready(function(){
     $("#submitbtn").click(function(){
-      alert("Hello! I am an alert box!!");
+      if($("#answer").val() === "nogit")
+          alert("Win");
+      else
+          alert("Lose");
     });
 });
 </script>
