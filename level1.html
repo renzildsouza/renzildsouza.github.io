@@ -12,10 +12,7 @@
 <script>
 $(document).ready(function(){
     $("#submitbtn").click(function(){
-      if($("#answer").val() === "nogit")
-          alert("Win");
-      else
-          alert("Lose");
+      window.location.href = "http://www.nishellobo.com/" + $("#answer").val();
     });
 });
 </script>
